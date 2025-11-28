@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f3f4f6; /* Nền xám nhẹ clean */
+}
+
+/* Sidebar màu xanh đen đặc trưng */
+.admin-sidebar {
+    background-color: #0B1A33;
+    color: white;
+}
+
+/* Tùy chỉnh thanh cuộn cho Admin */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
